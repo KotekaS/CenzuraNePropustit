@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 36: invalid syntax
+    gg"У-м-м... да. Я просто немного нервничаю..."
+       ^
+
+File "game/script.rpy", line 42: invalid syntax
+    gg"Да, так оно и есть"
+       ^
+
+Ren'Py Version: Ren'Py 8.1.3.23091805
+Fri Nov 10 21:02:55 2023

@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 26, in script
+    $ player_name =  renpy.input(("Введите имя персонажа"), default="Alex", color="#FF0000")
+  File "game/script.rpy", line 26, in <module>
+    $ player_name =  renpy.input(("Введите имя персонажа"), default="Alex", color="#FF0000")
+TypeError: renpy.input() got unexpected keyword argument(s): color
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 26, in script
+    $ player_name =  renpy.input(("Введите имя персонажа"), default="Alex", color="#FF0000")
+  File "D:\Novella\renpy-8.1.3-sdk\renpy\ast.py", line 1138, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\Novella\renpy-8.1.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 26, in <module>
+    $ player_name =  renpy.input(("Введите имя персонажа"), default="Alex", color="#FF0000")
+  File "D:\Novella\renpy-8.1.3-sdk\renpy\exports.py", line 946, in input
+    raise TypeError("renpy.input() got unexpected keyword argument(s): {}".format(", ".join(kwargs.keys())))
+TypeError: renpy.input() got unexpected keyword argument(s): color
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.1.3.23091805
+Novella 1.0
+Fri Nov 10 21:31:45 2023
